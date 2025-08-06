@@ -10,6 +10,9 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+     base: '/goit-js-hw-11/', // ⭐️ BASE EKLENDİ
+
+
     build: {
       sourcemap: true,
       rollupOptions: {
